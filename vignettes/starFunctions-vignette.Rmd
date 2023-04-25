@@ -1,0 +1,44 @@
+---
+title: "StarFunctions"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{starFunctions-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+# StarFunctions Usage and description
+This package includes a dataset along with a method to calculate the distance to a star (in Parsecs) 
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+## Setup and loading data
+The following is how to install the package along with including the dataset
+
+```{r setup}
+# Include the Library
+library(starFunctions)
+
+# Import the dataset
+data("starData")
+```
+
+
+## Method
+#### Star Distance [starDist()]
+**NOTE this method is only for main sequence stars**
+
+```{r}
+# Using starDist() 
+test1 <- starDist(0.0005, 16.6)
+test1
+
+# Using starDist() with the dataset
+test2 <- starDist(starData$Luminosity[1],starData$Absolute.Magnitude[1])
+test2
+```

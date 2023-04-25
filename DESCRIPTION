@@ -1,0 +1,17 @@
+Package: starFunctions
+Title: Star Data and Functions
+Version: 0.1.3
+Authors@R: 
+    person("Jared", "Van Den Bosch", , "jared.vandenbosch@gmail.com", role = c("aut", "cre"))
+Description: This package includes star data and some methods such as computing star distance and other values from the variables provided in the dataset.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
