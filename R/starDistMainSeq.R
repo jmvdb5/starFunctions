@@ -1,4 +1,4 @@
-#' Calculate distance to a (main sequence) star
+#' Calculate distance to a main sequence star
 #'
 #' @param relative_luminosity Relative luminosity of the star (L/Lo)
 #' @param absolute_magnitude Absolute magnitude of the star (Mv)

@@ -1,4 +1,4 @@
-#' Calculate the bolometric correction approximately for a star, given its temperature.
+#' Calculate the bolometric correction approximately for a star (by table), given its temperature.
 #'
 #' @param temperature The star's effective temperature in Kelvin
 #'

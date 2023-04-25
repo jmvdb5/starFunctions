@@ -2,7 +2,7 @@
 % Please edit documentation in R/bolCorrApprox.R
 \name{bolCorrApprox}
 \alias{bolCorrApprox}
-\title{Calculate the bolometric correction approximately for a star, given its temperature.}
+\title{Calculate the bolometric correction approximately for a star (by table), given its temperature.}
 \usage{
 bolCorrApprox(temperature)
 }
@@ -13,7 +13,7 @@ bolCorrApprox(temperature)
 Bolometric Correction (BC)
 }
 \description{
-Calculate the bolometric correction approximately for a star, given its temperature.
+Calculate the bolometric correction approximately for a star (by table), given its temperature.
 }
 \examples{
 bolCorrApprox(2800)

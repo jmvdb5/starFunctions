@@ -2,7 +2,7 @@
 % Please edit documentation in R/starDistMainSeq.R
 \name{starDistMainSeq}
 \alias{starDistMainSeq}
-\title{Calculate distance to a (main sequence) star}
+\title{Calculate distance to a main sequence star}
 \usage{
 starDistMainSeq(relative_luminosity, absolute_magnitude)
 }
@@ -15,7 +15,7 @@ starDistMainSeq(relative_luminosity, absolute_magnitude)
 Distance to the main sequence star (in parsecs)
 }
 \description{
-Calculate distance to a (main sequence) star
+Calculate distance to a main sequence star
 }
 \examples{
 starDistMainSeq(0.0024, 16.1)

@@ -12,7 +12,7 @@ A data frame with 240 rows and 7 variables:
 \item{Radius}{Relative Radius (R/Ro)}
 \item{Absolute.Magnitude}{Absolute Magnitude (Mv)}
 \item{Star.type}{Star Type (Red Dwarf, Brown Dwarf, White Dwarf, Main Sequence , SuperGiants, HyperGiants)}
-\item{Star.color}{Star Color (white,Red,Blue,Yellow,yellow-orange etc)}
+\item{Star.color}{Star Color (white, Red, Blue, Yellow, yellow-orange etc)}
 \item{Spectral.Class}{Spectral Class (O,B,A,F,G,K,,M)}
 }
 
