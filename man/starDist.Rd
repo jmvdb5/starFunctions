@@ -2,22 +2,32 @@
 % Please edit documentation in R/starDist.R
 \name{starDist}
 \alias{starDist}
-\title{Calculate distance to a (main sequence) star}
+\title{Calculate distance to a star}
 \usage{
-starDist(relative_luminosity, absolute_magnitude)
+starDist(
+  relative_luminosity,
+  temperature,
+  absolute_magnitude,
+  bolometric_correction
+)
 }
 \arguments{
 \item{relative_luminosity}{Relative luminosity of the star (L/Lo)}
 
+\item{temperature}{The star's temperature in Kelvin}
+
 \item{absolute_magnitude}{Absolute magnitude of the star (Mv)}
+
+\item{bolometric_correction}{the bolometric correction for the star, which corrects for the fact that the visual magnitude (Mv) only accounts for a portion of the star's total luminosity. The bolometric correction depends on the star's spectral type and can be estimated from a table or calculated using a formula.}
 }
 \value{
 Distance to the star (in parsecs)
 }
 \description{
-Calculate distance to a (main sequence) star
+Calculate distance to a star
 }
 \examples{
-starDist(0.0024, 16.1)
+starDist(3.846e26, 5778, 4.83, (-0.2 * (0.656 - 0.43)))
+starDist(3.846e26, 5778, 4.83, -0.0452)
 
 }
