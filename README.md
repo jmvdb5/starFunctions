@@ -18,7 +18,7 @@ library(starFunctions)
 library(devtools)
 
 # Install the package from the compressed file
-install_local("starFunctions_0.2.0.tar.gz")
+install_local("starFunctions_0.2.1.tar.gz")
 
 # Import the dataset
 data("starData")
