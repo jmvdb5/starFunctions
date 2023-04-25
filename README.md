@@ -1,4 +1,5 @@
 "StarFunctions"
+*Also see package testing for more information*
 
 # Usage and description
 This package includes a dataset along with a method to calculate the distance to a star (in Parsecs) 
