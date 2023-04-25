@@ -3,7 +3,7 @@
 *Also see package testing for more information*
 
 # Usage and description
-This package includes a dataset along with a method to calculate the distance to a star (in Parsecs) 
+This package includes a dataset along with a method to calculate the distance to a star (in Parsecs) or the surface area (in Kilometers)
 
 ## Setup and loading data
 The following is how to install the package along with including the dataset
