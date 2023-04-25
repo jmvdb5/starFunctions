@@ -1,4 +1,4 @@
-# "StarFunctions"
+# "StarFunctions" 0.2.1
 
 *Also see package testing for more information*
 
