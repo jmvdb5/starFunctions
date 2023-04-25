@@ -77,7 +77,7 @@ test4
 Returns the actual (avg) radius in Kilometers
 
 ```{r}
-# Using starDistMainSeq() 
+# Using starSurfaceArea() 
 starSurfaceArea(0.16)
 
 test5 <- starSurfaceArea(0.102)
