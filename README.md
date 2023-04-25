@@ -58,3 +58,15 @@ test4 <- bolCorrApprox(2800)
 test4
 
 ```
+
+#### Surface area from relative radius [starSurfaceArea()]
+Returns the actual (avg) radius in Kilometers
+
+```{r}
+# Using starDistMainSeq() 
+starSurfaceArea(0.16)
+
+test5 <- starSurfaceArea(0.102)
+test5
+
+```
