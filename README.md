@@ -1,4 +1,5 @@
-"StarFunctions"
+# "StarFunctions"
+
 *Also see package testing for more information*
 
 # Usage and description
