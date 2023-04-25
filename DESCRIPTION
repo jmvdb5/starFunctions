@@ -1,6 +1,6 @@
 Package: starFunctions
 Title: Star Data and Functions
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: 
     person("Jared", "Van Den Bosch", , "jared.vandenbosch@gmail.com", role = c("aut", "cre"))
 Description: This package includes data on stars and some methods such as computing star distance and other values from the variables provided in the dataset.

@@ -38,8 +38,8 @@ data("starData")
 
 
 ## Methods
-#### Star Distance [starDistMainSeq()]
-**NOTE this method is only for main sequence stars**
+#### Star Distance for Main Sequence Stars [starDistMainSeq()]
+*NOTE this method is only for main sequence stars*
 
 ```{r}
 # Using starDistMainSeq() 
@@ -52,7 +52,7 @@ test2
 ```
 
 #### Star Distance [starDist()]
-**NOTE this method is for all stars, but requires the bolometric correction as well**
+*NOTE this method is for all stars, but requires the bolometric correction as well*
 
 ```{r}
 # Using starDist() 
@@ -62,7 +62,7 @@ test3
 ```
 
 #### Bolometric Correction Approximation [bolCorrApprox()]
-**NOTE this method is for all stars, and requires the effective Temperature of the star and is only a table approximation**
+*NOTE this method is for all stars, and requires the effective Temperature of the star and is only a table approximation*
 
 ```{r}
 # Using starDistMainSeq() 
@@ -70,5 +70,17 @@ bolCorrApprox(8800)
 
 test4 <- bolCorrApprox(2800)
 test4
+
+```
+
+#### Surface area from relative radius [starSurfaceArea()]
+Returns the actual (avg) radius in Kilometers
+
+```{r}
+# Using starDistMainSeq() 
+starSurfaceArea(0.16)
+
+test5 <- starSurfaceArea(0.102)
+test5
 
 ```

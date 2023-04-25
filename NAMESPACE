@@ -3,3 +3,4 @@
 export(bolCorrApprox)
 export(starDist)
 export(starDistMainSeq)
+export(starSurfaceArea)
