@@ -4,7 +4,7 @@ Version: 0.2.1
 Authors@R: 
     person("Jared", "Van Den Bosch", , "jared.vandenbosch@gmail.com", role = c("aut", "cre"))
 Description: This package includes data on stars and some methods such as computing star distance and other values from the variables provided in the dataset.
-License: CC0
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
