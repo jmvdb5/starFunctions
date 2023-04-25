@@ -1,5 +1,5 @@
 To test the file follow these instructions:
 
 1. Download the starFunctions_X.x.x.tar.gz file
-2. Download the loadPackage.R script
+2. Download the loadPackage.R script or copy it and paste in a new project
 3. Make sure these files are under the same directory and run loadPackage.R
